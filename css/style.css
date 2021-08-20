@@ -2,9 +2,10 @@ html{
     scroll-behavior: smooth;
 }
 #navegacao{
-    background: black;
+    background: #04161a;
     color: white;
     padding: 20px;
+    opacity: 0.9;
 }
 
 #navegacao a:hover, #navegacao a{
