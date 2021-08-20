@@ -1,0 +1,161 @@
+html{
+    scroll-behavior: smooth;
+}
+#navegacao{
+    background: black;
+    color: white;
+    padding: 20px;
+}
+
+#navegacao a:hover, #navegacao a{
+    color: white;
+}
+#inicio{
+    background: url('../img/fundo.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+    
+#inicio h3{
+    text-transform: uppercase;
+    margin: 0;
+}
+
+#inicio h1{
+    font-size: 4em;
+}
+
+@media (max-width:768px){
+    img#fotoPerfil{
+        width: 15vh;
+        border-radius: 15vh;
+    }
+
+    #inicio h1{
+        font-size: 2.5em;
+    }
+
+    #inicio h3{
+        text-transform: uppercase;
+        margin: 0;
+        font-size: 1.5em;
+    }
+
+    #icones-perfil a{
+        font-size: 20px;
+        color: white;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+}
+#icones-perfil{
+    position: relative;
+    top: 10vmax;
+}
+
+#icones-perfil a{
+    font-size: 40px;
+    color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#icones-perfil a:hover{
+    color:#122b28;
+}
+/*sobre mim*/
+
+#sobreMim{
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+#sobreMim h3{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#sobreMim i{
+    font-size: 32px;
+    margin: 10px;
+    text-align: center;
+}
+
+img#fotoPerfil{
+    width: 30vh;
+    border-radius: 30vh;
+}
+
+.borda-left{
+    border-left: 3px solid gray;
+}
+
+.borda-right{
+    border-right: 3px solid gray;
+}
+
+
+/****************************************************/
+
+
+#projetos{
+    background: #04161a;
+    color: white;
+    padding-top: 20px;
+}
+
+
+#carrosel{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#carrosel a{
+    color: white;
+}
+
+.projeto-item{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.projeto-item a{
+    color: white;
+}
+
+.projeto-item a:hover{
+    color:white;
+}
+
+#contato{
+    padding-top: 20px;
+    background: white;
+}
+
+footer{
+    background: black;
+    color: white;
+    padding: 15px;
+}
+
+footer i{
+    font-size: 25px;
+    margin-left: 10px;
+    color: white;
+}
+
+footer i:hover{
+    color: gray;
+}
