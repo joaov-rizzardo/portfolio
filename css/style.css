@@ -140,6 +140,10 @@ img#fotoPerfil{
     color:white;
 }
 
+.projeto-item h4{
+    margin-top: 10px;
+}
+
 #contato{
     padding-top: 20px;
     background: white;
