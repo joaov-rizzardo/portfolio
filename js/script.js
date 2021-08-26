@@ -9,7 +9,7 @@ $('nav a, #vejaMais').click(function(e){
 
     $('html').animate({
         scrollTop: altura - menuHeight
-    },20);
+    },1000);
 
 })
 

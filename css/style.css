@@ -1,6 +1,4 @@
-html{
-    scroll-behavior: smooth;
-}
+
 #navegacao{
     background: #04161a;
     color: white;
@@ -8,7 +6,15 @@ html{
     opacity: 0.9;
 }
 
-#navegacao a:hover, #navegacao a{
+#navegacao ul li a{
+    text-transform: uppercase;
+}
+
+#navegacao ul li a:hover{
+    text-decoration: underline;
+}
+
+#navegacao a{
     color: white;
 }
 #inicio{
