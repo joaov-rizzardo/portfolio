@@ -121,7 +121,6 @@ img#fotoPerfil{
 }
 
 .projeto-item{
-    border: 1px solid gray;
     border-radius: 10px;
     padding: 20px;
     margin: 10px;
@@ -131,12 +130,46 @@ img#fotoPerfil{
     color: white;
 }
 
+
 .projeto-item a:hover{
-    color:white;
+    color:black;
 }
 
 .projeto-item h4{
     margin-top: 10px;
+}
+
+.projeto-item span{
+    font-size: 11px;
+    margin: 3px;
+    text-transform: uppercase;
+}
+
+.html{
+   color: #dd4b25; 
+}
+
+.css{
+    color: #036cb5;
+}
+
+.bootstrap{
+   color: #6e41a4;
+}
+
+.javascript{
+    color:#f7df1e;
+}
+
+.php{
+    color: #7377ad;
+}
+
+.sql{
+    color: #1e4c68;
+}
+.sass{
+    color: #cc6699;
 }
 
 #contato{
