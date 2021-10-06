@@ -72,6 +72,18 @@ body{
      color: #cc6699;
  }
 
+ .react{
+    color: #4ad5fe;
+ }
+
+ .firebase{
+     color: #ffca2a;
+ }
+
+ .typescript{
+    color: #007acc;
+ }
+
  #tecnologias{
     padding-top: 20px;
     padding-bottom: 20px;
