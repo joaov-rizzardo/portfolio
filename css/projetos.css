@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 #navegacao-biblioteca{
     background: #04161a;
     height: 80px;
@@ -75,15 +79,10 @@
     text-transform: uppercase;
  }
 
- @media(max-width: 992px){
-    #tecnologias{
-        font-size: 12px;
-    }
-} 
-
  #tecnologias span{
-     margin: 10px;
+     margin: 5px;
  }
+
 
  #resumo{
     color: white;
